@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <div class="title">Real-time Weather Dashboard</div>
+            <div class="date_time">
+                Date & Time
+                <p class="date"></p>
+                ,
+                <p class="time"></p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container_1">
+            <div class="input_history">
+                <div class="search_bar">
+                    <label for="city_input">Enter the city name :</label>
+                    <input type="text" name="city" id="city_input">
+                </div>
+                <br>
+                <button id="clear_btn">Clear History</button>
+                <br>
+                <div class="history">
+                    
+                </div>
+            </div>
+            <div class="weather_box">
+                <div class="wb_cityname"></div>
+                <div class="output">
+                    <img class="image_cloud"></img>
+                    <div class="info">
+                        <p class="description"></p><br>
+                        <p class="temp">Temp: <span class="temp_info"></span></p><br>
+                        <p class="hum">Humidity: <span class="hum_info"></span></p><br>
+                        <p class="wind">Wind: <span class="wind_info"></span></p><br>
+                        <p class="dir">Direction: <span class="dir_info"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="weather1.js"></script>
+</body>
+
+</html>
